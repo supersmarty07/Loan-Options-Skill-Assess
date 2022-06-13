@@ -1,4 +1,4 @@
-##React Components
+## React Components
 
 The application is made of following commponents:
 1) Header
@@ -8,16 +8,16 @@ The application is made of following commponents:
       1) TableHead
       2) RowTable
 
-#Styling components
+# Styling components
 I used bootstrap for styling the components. Makes life easy!
 
-#Hooks
+# Hooks
 useState and useEffect are the most common hooks used here. If the applicaion was to be made with more features, redux and contextAPI would be appropriate. As for now, Redux and contextAPI are too OP! 2-levels of Prop-drilling has been done which shouldn't affect the performance of the application and the code is quite readable.
 
-#States
+# States
 States & Data are being passed to children via parents thru' props. In addition, data & state are being passed from children to parent via callbacks.
 
-##Functional/Non-functional Requirements
+## Functional/Non-functional Requirements
 
 ● How familiar you are with APIs
 To get around "Daily api call limits reached" I used VPN to changed the IP lol. useEffect has been used to load all the data on inital screen load. This data is only displayed on clicking 'Load' button.
